@@ -5,7 +5,7 @@ figlet Whatsapp-Bulk
 pip install pywhatkit
 
 # Launch python script
-figlet Script launch
+figlet Script launched
 python3 bulk_msg.py
 
 # Uninstall packages
