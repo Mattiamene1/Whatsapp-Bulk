@@ -58,6 +58,10 @@ Move in the cloned folder (/Whatsapp-Bulk/)
   - List with phone number without + but with the country prefix before the phone number
   - Example +39 3401398234 must be written in the csv file like 393401398234
 
+## Tools needed for the script launch.sh
+- pip
+- figlet
+
 # Tips
 Revolut:
 [Revolut](https://revolut.me/mattiaw7o9)
