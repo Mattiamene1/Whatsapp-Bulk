@@ -1,6 +1,8 @@
 # Whatsapp-Bulk
 Bulk messages for Whatsapp web. Similar behaviour of sending a message to a broadcast list.
 
+It's tested only on Ubuntu 22.04 on the 29/03/2023
+
 ## What Whatshapp-Bulk does
 Whatsapp-Bulk through the [pywhatkit](https://pypi.org/project/pywhatkit/) library can send a message to several contacts using Whatsapp web.
 The message is sent to a single contact per minute because Whatsapp web need some seconds to be opened in the browser.
