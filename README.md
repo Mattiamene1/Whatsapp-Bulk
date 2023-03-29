@@ -62,7 +62,7 @@ Move in the cloned folder (/Whatsapp-Bulk/)
 
 ## Tools needed for the script launch.sh
 - pip
-- python3
+- python3 (Tested on python3.10.7)
 - figlet
 
 # Tips
