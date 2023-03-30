@@ -26,29 +26,28 @@ img = "images/jetmarket3/main.jpg"
 
 # Type your message
 msg = """Dear Mattia,
-
 i'm using your script fixed list.
 Thank you!
-
 bye!"""
 
 # Contacts list
-contactList = [393401398232]
+contactList = [393401398232, 393333333333]
 
 # Send Message with Caption
 for num in contactList:
     if minute < 59:
         minute=minute+1
-    
     if min == 59:
             min == 0
             hour=hour+1
-
     cellphone = '+'+ str(num)
+
+
     print(cellphone)
     pywhatkit.sendwhats_image(cellphone, img , msg)
     count = count +1
     print(str(count) + '° operation done +'+ cellphone + ' at ' + str(hour) + ':' + str(minute))
+    print(" ")
 
 time.sleep(5)
 print(" ")
