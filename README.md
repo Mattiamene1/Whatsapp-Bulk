@@ -5,14 +5,8 @@ It's tested only on Ubuntu 22.04 on the 29/03/2023
 
 ## What Whatshapp-Bulk does
 Whatsapp-Bulk through the [pywhatkit](https://pypi.org/project/pywhatkit/) library can send a message to several contacts using Whatsapp web.
-The message is sent to a single contact per minute because Whatsapp web need some seconds to be opened in the browser.
+The message is sent to 3 contacts per minute because Whatsapp web need some seconds to be opened in the browser.
 The script will open a new Whatsapp web session for each contact.
-
-### Example
-If it's the 16:23
-- First contact will receive the message at 16:24
-- Second contact will receive the message at 16:25
-- Third contact will receive the message at 16:26
 
 ## Idea to solve the issue
 Avoid spam block: If the receiver hasn't got your Whatsapp contact already saved, it won't never receive your message sent to the broadcast list.
@@ -77,6 +71,10 @@ Move in the cloned folder (/Whatsapp-Bulk/)
   - ```sudo apt install copyq```
 - Visual studio code [optional]
   - ```sudo snap install --classic code```
+
+## Performance  
+- 50 messages in 16 minutes (Launched with the launch.sh)
+
 # Tips
 Revolut:
 [Revolut](https://revolut.me/mattiaw7o9)
