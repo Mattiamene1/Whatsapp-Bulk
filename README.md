@@ -55,16 +55,26 @@ Move in the cloned folder (/Whatsapp-Bulk/)
 ## Watch Out
 - If the python script is run when the value of local time second is equal to 0 may cause a warning, don't worry, just repeat the command!
 - If you need to send a message composed by many rows you must insert it inside triple high quotes as follow: _"""Your multi-rows message"""_
-- In the body of your message you can also use Telegram/Whatsapp emoticons, you just need to copy-paste them. (I've used them in Visual Studio Code)
+- In the body of your message you can also use Telegram/Whatsapp emoticons, you just need to copy-paste them. (I've used them in Visual Studio Code) [in the next section you have installation info]
 - The .csv file must be composed by just numbers in the first column: (check the /contacts/contacs2.csv)
   - List with phone number without + but with the country prefix before the phone number
   - Example +39 3401398234 must be written in the csv file like 393401398234
-
+- If you are using images too, you must run in other terminal copyq by running ```copyq```[in the next section you have installation info]
 ## Tools needed for the script launch.sh
-- pip
 - python3 (Tested on python3.10.7)
-- figlet
-
+  - ```sudo apt update && sudo apt upgrade -y```
+  - ```sudo add-apt-repository ppa:deadsnakes/ppa``` then press ENTER
+  - ```sudo apt install python3.10 -y```
+- python dependencies
+  - ```sudo apt install python3-pip```
+  - ```sudo apt install python3-dev```
+  - ```sudo apt install python3-tk```
+- figlet [optional, necessary just to execute the launch.sh]
+  - ```sudo apt install figlet```
+- copyq (in order to upload images)
+  - ```sudo apt install copyq```
+- Visual studio code [optional]
+  - ```sudo snap install --classic code```
 # Tips
 Revolut:
 [Revolut](https://revolut.me/mattiaw7o9)
