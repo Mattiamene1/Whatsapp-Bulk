@@ -53,13 +53,15 @@ Move in the cloned folder (/Whatsapp-Bulk/)
 ```sh launch.sh```
 
 ## Watch Out
+- Do not use multiple screens or monitors, otherwise it won't work!
 - If the python script is run when the value of local time second is equal to 0 may cause a warning, don't worry, just repeat the command!
 - If you need to send a message composed by many rows you must insert it inside triple high quotes as follow: _"""Your multi-rows message"""_
 - In the body of your message you can also use Telegram/Whatsapp emoticons, you just need to copy-paste them. (I've used them in Visual Studio Code) [in the next section you have installation info]
 - The .csv file must be composed by just numbers in the first column: (check the /contacts/contacs2.csv)
   - List with phone number without + but with the country prefix before the phone number
   - Example +39 3401398234 must be written in the csv file like 393401398234
-- If you are using images too, you must run in other terminal copyq by running ```copyq```[in the next section you have installation info]
+- If you are using images too, you must run in other terminal copyq by running ```copyq```[in the next section you have installation info, already provided the automatic lauch in the script]
+
 ## Tools needed for the script launch.sh
 - python3 (Tested on python3.10.7)
   - ```sudo apt update && sudo apt upgrade -y```
