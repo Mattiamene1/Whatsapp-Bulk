@@ -56,7 +56,7 @@ Move in the cloned folder (/Whatsapp-Bulk/)
   - Example +39 3401398234 must be written in the csv file like 393401398234
 - If you are using images too, you must run in other terminal copyq by running ```copyq```[in the next section you have installation info, already provided the automatic lauch in the script]
 
-## Tools needed for the script launch.sh
+## Tools needed
 - python3 (Tested on python3.10.7)
   - ```sudo apt update && sudo apt upgrade -y```
   - ```sudo add-apt-repository ppa:deadsnakes/ppa``` then press ENTER
@@ -65,6 +65,7 @@ Move in the cloned folder (/Whatsapp-Bulk/)
   - ```sudo apt install python3-pip```
   - ```sudo apt install python3-dev```
   - ```sudo apt install python3-tk```
+  - ```sudo pip install pywhatkit``` (Note: Into the launch.sh it is auto-installed) 
 - figlet [optional, necessary just to execute the launch.sh]
   - ```sudo apt install figlet```
 - copyq (in order to upload images)
