@@ -44,10 +44,10 @@ or
 
 ## Additional Tool
 There is also a script to do the steps 5, 6, 7 automatically
-Move in the folder /Whatsapp-Bulk/scripts/
-```cd /Whatsapp-Bulk/scripts/```
+Move in the **repo** folder 
+```cd ~/Whatsapp-Bulk```
 Then open a terminal (only if you need to send an image)
-- ```sudo copyq```
+- ```sudo copyq``` (sometimes sudo isn't necessary)
 and
 - ```bash launch.sh``` and select the mode.
 
