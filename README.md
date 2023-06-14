@@ -1,4 +1,7 @@
 # Whatsapp-Bulk
+
+<img src="https://github.com/Mattiamene1/Whatsapp-Bulk/blob/main/images/wa-bulk.gif width="200" height="200"">
+
 Bulk messages for Whatsapp web. Similar behaviour of sending a message to a broadcast list.
 
 - Works on Ubuntu 20.04 on the 214/06/2023
