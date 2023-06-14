@@ -1,6 +1,6 @@
 # Whatsapp-Bulk
 
-<img src="https://github.com/Mattiamene1/Whatsapp-Bulk/blob/main/images/wa-bulk.gif" width="224" height="181">
+<img src="https://github.com/Mattiamene1/Whatsapp-Bulk/blob/main/images/wa-bulk.gif" width="448" height="363">
 
 Bulk messages for Whatsapp web. Similar behaviour of sending a message to a broadcast list.
 
