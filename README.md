@@ -1,8 +1,9 @@
 # Whatsapp-Bulk
 Bulk messages for Whatsapp web. Similar behaviour of sending a message to a broadcast list.
 
-Works on Ubuntu 22.04 on the 29/03/2023
-NOT works on Ubuntu 23:04 on the 05/06/2023
+- Works on Ubuntu 20.04 on the 214/06/2023
+- Works on Ubuntu 22.04 on the 29/03/2023
+- NOT works on Ubuntu 23:04 on the 05/06/2023 (issues with pywhatkit lib)
 
 ## What Whatshapp-Bulk does
 Whatsapp-Bulk through the [pywhatkit](https://pypi.org/project/pywhatkit/) library can send a message to several contacts using Whatsapp web.
@@ -28,24 +29,27 @@ We want to send Message one-to-one, using either _array_ or _.csv file_ that con
 
 4) Do the log-in to your whatsapp sender account in the browser
 
-5) Install pywhatkit every time you need it
+5) Install copyq(in order to upload images)
+- ```apt install copyq -y```
+
+6) Install pywhatkit every time you need it
 ```pip install pywhatkit```
   
-6) Launch the pyhon script choosen
+7) Launch the pyhon script choosen
 ```python3 bulk_msg.py```
 or
 ```python3 bulk_fixed_list.py```
   
-7) Uninstall it using
-```pip uninstall pywhatkit```
-  
 ***ATTENTION: During the execution don't press any key or use the device, otherwise it won't work***
 
 ## Additional Tool
-There is also a script to do the steps 5, 6, 7 automatically.
-Move in the cloned folder (/Whatsapp-Bulk/)
-
-```sh launch.sh```
+There is also a script to do the steps 5, 6, 7 automatically
+Move in the folder /Whatsapp-Bulk/scripts/
+```cd /Whatsapp-Bulk/scripts/```
+Then open a terminal (only if you need to send an image)
+- ```sudo copyq```
+and
+- ```bash launch.sh``` and select the mode.
 
 ## Watch Out
 - Do not use multiple screens or monitors, otherwise it won't work!
@@ -70,7 +74,7 @@ Move in the cloned folder (/Whatsapp-Bulk/)
 - figlet [optional, necessary just to execute the launch.sh]
   - ```sudo apt install figlet```
 - copyq (in order to upload images)
-  - ```sudo apt install copyq```
+  - ```sudo apt install copyq -y```
 - Visual studio code [optional]
   - ```sudo snap install --classic code```
 
