@@ -83,10 +83,3 @@ and
 
 ## Performance  
 - 50 messages in 16 minutes (Launched with the launch.sh)
-
-# Tips
-Revolut:
-[Revolut](https://revolut.me/mattiaw7o9)
-
-Paypal:
-[Paypal](https://www.paypal.me/mattiameneghin)
