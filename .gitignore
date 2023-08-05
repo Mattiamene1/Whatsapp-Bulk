@@ -5,3 +5,7 @@ PyWhatKit
 env.sh
 
 cp-pst.txt
+
+contacts/contactsDone.csv
+
+contacts/contactsToDo.csv

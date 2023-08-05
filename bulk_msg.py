@@ -31,7 +31,7 @@ Thank you!
 bye!"""
 
 # Send Message with Caption
-with open('contacts/contacts2.csv') as csvfile:
+with open('contacts/contacts.csv') as csvfile:
     contactList = csv.reader(csvfile)
     print(" ")
 
